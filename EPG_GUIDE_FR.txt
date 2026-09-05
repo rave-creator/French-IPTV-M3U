@@ -1,208 +1,419 @@
-EPG FR - GUIDE COMPLET D'INSTALLATION 2025
-===========================================
+╔════════════════════════════════════════════════════════════════════════════╗
+║                   GUIDE COMPLET EPG FRANCE 2025                            ║
+║                    Installation & Configuration                             ║
+╚════════════════════════════════════════════════════════════════════════════╝
 
-SOURCE EPG OFFICIELLE POUR TOUS VOS FLUX
-=========================================
+🎯 SOURCE EPG OFFICIELLE FRANÇAISE
+═══════════════════════════════════════════════════════════════════════════════
 
-🎯 MEILLEURE SOURCE EPG FRANCE 2025 :
-URL PRINCIPALE : https://xmltvfr.fr/xmltv/xmltv.xml.gz
-FORMAT : XML TV COMPRESSÉ (Gzip) - Mise à jour QUOTIDIENNE
-COUVERTURE : 785+ chaînes TNT, Cable, Satellite, Stream
-PROGRAMME : 5 jours en avance
-FUSEAU HORAIRE : Europe/Paris (UTC+1 ou +2 selon saison)
+URL PRINCIPALE (RECOMMANDÉE) :
+  https://xmltvfr.fr/xmltv/xmltv.xml.gz
 
-===========================================
-SOURCES EPG ALTERNATIVES (Backup)
-===========================================
+CARACTÉRISTIQUES :
+  ✓ 785+ chaînes couvertes
+  ✓ 5 jours de programme en avance
+  ✓ Mise à jour quotidienne (06:00)
+  ✓ Format compressé (.gz) = 80% plus léger
+  ✓ Fuseau horaire : Europe/Paris (UTC+1/+2)
+  ✓ Support : TNT, Cable, Satellite, Stream
 
-1. OPEN-EPG (Fiable & Simple)
-   URL : https://open-epg.com/fr.xml
-   Format : XML Standard
-   Mise à jour : Quotidienne
-   Programme : 2 jours
+═══════════════════════════════════════════════════════════════════════════════
 
-2. EPGDATA (Premium gratuit)
-   URL : https://www.epgdata.com/epgdata/xmltv.php
-   Format : XML
-   Couverture : France complète
-   Programme : 7 jours
+📲 INSTALLATION PAR LECTEUR
+═══════════════════════════════════════════════════════════════════════════════
 
-3. XMLTV-FR GITHUB (Self-Hosted)
-   Repo : https://github.com/racacax/XML-TV-Fr
-   Format : XML
-   Avantage : Personalisable
+█ PERFECT PLAYER ⭐ (RECOMMANDÉ)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-===========================================
-INSTALLATION DÉTAILLÉE PAR LECTEUR
-===========================================
+Étape 1 : Ajouter Playlist M3U
+  1. Ouvrir Perfect Player
+  2. Menu ⊙ → Playlist
+  3. Clic droit → Add
+  4. Coller URL M3U :
+     https://raw.githubusercontent.com/rave-creator/French-IPTV-M3U/main/fr_complete.m3u
+  5. Confirmer chargement
 
-█ PERFECT PLAYER (Recommandé ⭐)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. Ouvrir Perfect Player
-2. Menu ⊙ → Paramètres → EPG Source
-3. Cliquer "ADD" (Ajouter)
-4. Coller : https://xmltvfr.fr/xmltv/xmltv.xml.gz
-5. Nom : "France EPG"
-6. Fuseau horaire : Europe/Paris
-7. Sauvegarder et attendre le chargement (1-2 min)
+Étape 2 : Configurer EPG
+  1. Menu ⊙ → Paramètres
+  2. Aller à : EPG Source
+  3. Cliquer : ADD (Ajouter)
+  4. Remplir :
+     ┌─────────────────────────────────────┐
+     │ URL : xmltvfr.fr/xmltv/xmltv.xml.gz │
+     │ Nom : France EPG                    │
+     │ Fuseau horaire : Europe/Paris       │
+     │ Mise à jour : 6 heures              │
+     └─────────────────────────────────────┘
+  5. Sauvegarder
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Étape 3 : Synchroniser
+  1. Menu ⊙ → EPG → Synchroniser
+  2. Attendre chargement (1-2 minutes)
+  3. Consulter guide : Appui long sur chaîne
 
-█ TIVIMATE (Simple & Efficace)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. Menu → Paramètres
-2. Aller à "EPG Source"
-3. Cliquer "Ajouter une source"
-4. Saisir : https://xmltvfr.fr/xmltv/xmltv.xml.gz
-5. Nommer : "TVG France"
-6. Zone horaire : UTC+1 (Auto)
-7. Synchronisation : Chaque jour 06:00
-8. OK
+✅ RÉSULTAT : EPG complet + 60 chaînes !
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-█ KODI (Home Cinema)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. Paramètres → Enregistreur TV
-2. Paramètres TV → EPG XMLTV
-3. URL du guide EPG :
-   https://xmltvfr.fr/xmltv/xmltv.xml.gz
-4. Mise à jour automatique : 6 heures
-5. Appliquer et relancer
+█ TIVIMATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ajouter Playlist :
+  1. Menu principal → Playlists
+  2. Clic "Add" → Coller URL M3U
+  3. Nommer : "France IPTV"
+  4. Sauvegarder
 
-█ VLC (Lecture Basique)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚠️ VLC ne supporte PAS nativement l'EPG
-Préférez : Perfect Player, TiviMate ou Kodi
+Configurer EPG :
+  1. Paramètres → EPG Source
+  2. Cliquer "Ajouter source"
+  3. Insérer URL EPG :
+     https://xmltvfr.fr/xmltv/xmltv.xml.gz
+  4. Nom : "France EPG"
+  5. Zone horaire : UTC+1 (Auto)
+  6. Synchronisation : Chaque 6h
+  7. OK → Synchroniser maintenant
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-█ XSTREAMER / IPTV EXTREME
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. Ajouter Playlist M3U
-2. Ajouter EPG (source ci-dessus)
-3. Mapper TVG-ID entre M3U et EPG
-4. Actualiser EPG
+█ KODI (HOME CINEMA)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-===========================================
-MAPPAGE TVG-ID (Important!)
-===========================================
+Ajouter Source IPTV :
+  1. Extensions → Installeur → Dépôt officiel
+  2. Rechercher : "IPTV Simple Client"
+  3. Installer l'extension
+  4. Redémarrer Kodi
 
-Pour que l'EPG fonctionne, les tvg-id doivent correspondre :
+Configurer extension :
+  1. Paramètres → Enregistreur TV
+  2. Paramètres TV → Serveur
+  3. Lecteur  → IPTV Simple Client
+  4. Paramètres client :
+     ┌──────────────────────────────────┐
+     │ M3U Playlist :                  │
+     │ https://raw.githubusercontent.com/│
+     │ rave-creator/French-IPTV-M3U    │
+     │ /main/fr_complete.m3u           │
+     │                                  │
+     │ EPG XMLTV Source :               │
+     │ https://xmltvfr.fr/xmltv/       │
+     │ xmltv.xml.gz                    │
+     └──────────────────────────────────┘
+  5. Appliquer et redémarrer
 
-DANS VOTRE M3U :
-#EXTINF:-1 tvg-id="tf1.fr" tvg-name="TF1"...
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-DANS LE FICHIER EPG :
-<channel id="tf1.fr">
+█ VLC
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-✓ Ils DOIVENT être identiques!
+Lire M3U :
+  1. Ouvrir VLC
+  2. Média → Ouvrir flux réseau
+  3. Coller URL M3U
+  4. Lire
+
+⚠️ LIMITATION :
+  • VLC ne supporte PAS EPG natif
+  • Utiliser Perfect Player ou TiviMate pour EPG
+  • VLC = Lecteur basique sans guide
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+█ AUTRES LECTEURS (XCIPTV, XSTREAMER, GSE SMART IPTV)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Général (tous les lecteurs) :
+  1. Importer M3U :
+     https://raw.githubusercontent.com/rave-creator/French-IPTV-M3U/main/fr_complete.m3u
+  2. Ajouter EPG :
+     https://xmltvfr.fr/xmltv/xmltv.xml.gz
+  3. Paramètres → Fuseau : Europe/Paris
+  4. Synchroniser EPG
+  5. Profiter !
+
+═══════════════════════════════════════════════════════════════════════════════
+
+⚙️ MAPPAGE TVG-ID (IMPORTANT POUR EPG)
+═══════════════════════════════════════════════════════════════════════════════
+
+Pour que l'EPG fonctionne, tvg-id DOIT correspondre entre M3U et EPG.
+
+EXEMPLE :
+
+Dans votre M3U (fr_complete.m3u) :
+  #EXTINF:-1 tvg-id="tf1.fr" tvg-name="TF1"...
+
+Dans l'EPG (xmltv.xml.gz) :
+  <channel id="tf1.fr">
+
+✓ MÊME ID = EPG fonctionne
+✗ ID différent = EPG absent
+
+─────────────────────────────────────────────────────────────────────────────
 
 TVG-ID COURANTS FRANCE :
-━━━━━━━━━━━━━━━━━━━━━━━━
-tf1.fr           → TF1
-france2.fr       → France 2
-france3.fr       → France 3
-france4.fr       → France 4
-france5.fr       → France 5
-m6.fr            → M6
-arte.fr          → Arte
-tmc.fr           → TMC
-w9.fr            → W9
-tfx.fr           → TFX
-lci.fr           → LCI
-bfmtv.fr         → BFM TV
-bfmbusiness.fr   → BFM Business
-cnews.fr         → CNews
-france24.fr      → France 24
-euronews.fr      → Euronews
-tv5monde.fr      → TV5Monde
-equidia.fr       → Equidia
-lequipe.fr       → L'Équipe
-kto.fr           → KTO
 
-===========================================
-PROBLÈMES & SOLUTIONS
-===========================================
+  Chaînes Nationales :
+    • tf1.fr           → TF1
+    • france2.fr       → France 2
+    • france3.fr       → France 3
+    • france4.fr       → France 4
+    • france5.fr       → France 5
+    • m6.fr            → M6
+    • arte.fr          → Arte
 
-❌ "EPG ne se charge pas"
-→ Vérifier connexion Internet
-→ Essayer une source alternative
-→ Redémarrer l'application
+  TNT :
+    • tmc.fr           → TMC
+    • w9.fr            → W9
+    • tfx.fr           → TFX
+    • lci.fr           → LCI
+    • 6ter.fr          → 6ter
+    • serieclub.fr     → Série Club
+    • teva.fr          → Teva
 
-❌ "Pas de programme affiché"
-→ Vérifier correspondance tvg-id
-→ Attendre mise à jour EPG (1-2 heures)
-→ Forcer actualisation manuelle
+  Infos :
+    • bfmtv.fr         → BFM TV
+    • cnews.fr         → CNews
+    • france24.fr      → France 24
+    • euronews.fr      → Euronews
+    • tv5monde.fr      → TV5Monde
 
-❌ "Erreur XML"
-→ Télécharger version non-compressée :
-  https://xmltvfr.fr/xmltv/xmltv.xml
-  (Plus lourd, mais compatible)
+  Cinéma :
+    • ab1.fr           → AB1
+    • cstar.fr         → C Star
+    • rmcstory.fr      → RMC Story
+    • t18.fr           → T18
 
-❌ "Fuseau horaire incorrect"
-→ Réglages : Europe/Paris (UTC+1/+2)
-→ Redémarrer app après changement
+  Sports :
+    • equidia.fr       → Equidia
+    • lequipe.fr       → L'Équipe
 
-===========================================
-ASTUCES AVANCÉES
-===========================================
+  Régionales :
+    • france3nord.fr   → France 3 Nord
+    • france3bretagne.fr → France 3 Bretagne
+    • tvbreizh.fr      → TV Breizh
+    • tvr.fr           → TVR Bretagne
+    • zoom44.fr        → Zoom 44
 
-🔧 COMPRESSION & PERFORMANCE
-- Format .gz = 80% plus léger
-- Chargement = 50% plus rapide
-- Compatibilité : 99% des apps
+═══════════════════════════════════════════════════════════════════════════════
 
-🔧 MISE À JOUR AUTOMATIQUE
-Perfect Player : Menu → Paramètres → EPG
-Scheduler : 06:00 - 22:00 (Toutes les 6h)
+❓ DÉPANNAGE & SOLUTIONS
+═══════════════════════════════════════════════════════════════════════════════
 
-🔧 SAUVEGARDE LOCAL
-Certains apps permettent cache EPG local
-Gain : Chargement instantané
+PROBLÈME 1 : "EPG ne charge pas"
+─────────────────────────────────
+SOLUTIONS :
+  ✓ Vérifier connexion Internet (test : ping 8.8.8.8)
+  ✓ Redémarrer lecteur complètement
+  ✓ Vider cache app (Paramètres → Stockage)
+  ✓ Essayer source alternative (voir ci-dessous)
+  ✓ Vérifier URL EPG : https://xmltvfr.fr/xmltv/xmltv.xml.gz
+  ✓ Attendre 1-2 min (chargement initial normal)
 
-🔧 DUAL EPG (Redondance)
-Ajouter 2 sources EPG simultanément
-Si 1 échoue, l'autre prend le relais
+PROBLÈME 2 : "Pas de programme affiché"
+──────────────────────────────────────
+SOLUTIONS :
+  ✓ Vérifier tvg-id M3U = id EPG (voir section mappage)
+  ✓ Forcer actualisation : Menu → Sync EPG Now
+  ✓ Attendre mise à jour EPG (peut prendre 2-6 heures)
+  ✓ Redémarrer lecteur après synchronisation
+  ✓ Vérifier fuseau horaire = Europe/Paris
 
-===========================================
-VÉRIFICATION FONCTIONNEMENT
-===========================================
+PROBLÈME 3 : "Erreur XML/Décompression"
+──────────────────────────────────────
+SOLUTIONS :
+  ✓ Essayer version non-compressée :
+    https://xmltvfr.fr/xmltv/xmltv.xml
+    (Plus lourde mais compatible 100%)
+  ✓ Vérifier espace disque disponible
+  ✓ Réduire nombre chaînes si possible
+  ✓ Contacter support xmltvfr.fr si erreur persiste
 
-✓ Guides affichés dans l'app
-✓ Horaires corrects (UTC+1)
-✓ Descriptions présentes
-✓ Logos chaînes visibles
-✓ Mise à jour automatique active
+PROBLÈME 4 : "Chaîne ne charge pas"
+─────────────────────────────────
+SOLUTIONS :
+  ✓ Vérifier débit Internet : au moins 5 Mbps (speedtest.net)
+  ✓ Passer HD → SD (moins consommateur)
+  ✓ Redémarrer routeur WiFi (30 secondes)
+  ✓ Fermer apps en arrière-plan
+  ✓ Connecter en 4G mobile test
+  ✓ Essayer autre chaîne pour tester
 
-Si tout OK → Configuration réussie! 🎉
+PROBLÈME 5 : "Fuseau horaire incorrect"
+───────────────────────────────────────
+SOLUTIONS :
+  ✓ Paramètres EPG → Fuseau : Europe/Paris
+  ✓ Vérifier heure système (Paramètres → Date & Heure)
+  ✓ Activer mise à jour heure auto
+  ✓ Redémarrer app après changement
 
-===========================================
-SUPPORT & RESSOURCES
-===========================================
+═══════════════════════════════════════════════════════════════════════════════
 
-Site officiel EPG France : https://xmltvfr.fr/
-Documentation : https://xmltvfr.fr/channels.php
-GitHub XMLTV-FR : https://github.com/racacax/XML-TV-Fr
-Forum IPTV : r/IPTV (Reddit)
+📡 SOURCES EPG ALTERNATIVES (BACKUP)
+═══════════════════════════════════════════════════════════════════════════════
 
-===========================================
-LICENCE & CONDITIONS
-===========================================
+Si XMLTV-FR ne fonctionne pas :
 
-✓ Sources 100% légales
-✓ Flux publics & gratuits
-✓ Chaînes de la TNT & Free-To-Air
-✓ Mise à jour garantie quotidienne
-✓ Usage privé uniquement
+1. OPEN-EPG
+   URL : https://open-epg.com/fr.xml
+   Programme : 2 jours
+   Mise à jour : Quotidienne
+   Couverture : France
 
-⚠️ Respect des conditions d'utilisation
-⚠️ Pas de revente ou redistribution
-⚠️ Pas de modification sans attribution
+2. EPGDATA
+   URL : https://www.epgdata.com/epgdata/xmltv.php
+   Programme : 7 jours
+   Mise à jour : Quotidienne
+   Couverture : France + International
 
-===========================================
-DERNIÈRE MISE À JOUR : 05-09-2026
-VOTRE EPG FRANCE EST MAINTENANT COMPLET ! 🚀
-===========================================
+3. GITHUB XMLTV-FR (Self-hosted)
+   Repo : https://github.com/racacax/XML-TV-Fr
+   Programme : Personnalisable
+   Avantage : Local + automatisable
+
+COMMAND TEST :
+  curl -I https://xmltvfr.fr/xmltv/xmltv.xml.gz
+  (Vérifier code 200 = OK)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔧 ASTUCES AVANCÉES
+═══════════════════════════════════════════════════════════════════════════════
+
+▶ PERFORMANCE & COMPRESSION
+
+  Format GZ vs XML :
+    • .gz = 80% réduction taille
+    • Chargement 50% plus rapide
+    • Utilisé par défaut (recommandé)
+    • Support : 99% apps
+
+▶ MISE À JOUR AUTOMATIQUE EPG
+
+  Perfect Player :
+    Paramètres → EPG → Mise à jour : 6 heures
+    Plage horaire : 06:00 - 22:00
+
+  TiviMate :
+    Paramètres → EPG → Auto-sync : ON
+    Intervalle : 6 heures
+
+▶ CACHE LOCAL
+
+  Certains lecteurs (Kodi, Perfect) permettent :
+    ✓ Télécharger EPG en local
+    ✓ Chargement quasi-instantané
+    ✓ Fonctionnement hors-ligne
+
+▶ DUAL EPG (REDONDANCE)
+
+  Ajouter 2 sources EPG :
+    1. Primaire : https://xmltvfr.fr/xmltv/xmltv.xml.gz
+    2. Secours : https://open-epg.com/fr.xml
+  
+  Si primaire échoue, secours active automatiquement
+
+▶ EXPORT/IMPORT PERSONNALISÉ
+
+  GitHub XML-TV-Fr permet :
+    • Filtrer chaînes spécifiques
+    • Personnaliser tvg-id
+    • Auto-générer fichier EPG
+    • Héberger serveur local
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ VÉRIFICATION INSTALLATION
+═══════════════════════════════════════════════════════════════════════════════
+
+Après installation, vérifier :
+
+  ✓ Chaînes affichées en liste
+  ✓ Logos visibles & en HD
+  ✓ Guide EPG populé (appui long chaîne)
+  ✓ Heures correctes (fuseau Paris)
+  ✓ Descriptions présentes
+  ✓ Mise à jour auto active
+  ✓ Chargement streaming OK
+
+→ Si TOUS les points OK = Configuration réussie! 🎉
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📞 SUPPORT & RESSOURCES
+═══════════════════════════════════════════════════════════════════════════════
+
+Site officiel EPG France :
+  https://xmltvfr.fr/
+  • Liste complète chaînes
+  • Documentation
+  • Forum support
+
+Github XMLTV-FR :
+  https://github.com/racacax/XML-TV-Fr
+  • Code source
+  • Scripts personnalisation
+  • Issues & discussions
+
+Github French-IPTV-M3U :
+  https://github.com/rave-creator/French-IPTV-M3U
+  • Signaler bugs
+  • Suggestions
+  • Discussions
+
+Communauté :
+  • Reddit : r/IPTV
+  • Forums IPTV spécialisés
+  • Groupes Facebook French IPTV
+
+═══════════════════════════════════════════════════════════════════════════════
+
+⚠️ CONDITIONS D'UTILISATION
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ AUTORISÉ :
+  • Usage personnel/privé
+  • Consultation EPG
+  • Modification pour soi-même
+  • Partage lien (avec attribution)
+
+❌ INTERDIT :
+  • Revente commerciale EPG
+  • Modification sans attribution
+  • Redistribution massif
+  • Suppression crédits sources
+  • Usage commercial/professionnel
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 STATISTIQUES EPG
+═══════════════════════════════════════════════════════════════════════════════
+
+Couverture :          785+ chaînes
+Programme avance :    5 jours
+Mise à jour :         Quotidienne (06:00)
+Fuseau horaire :      Europe/Paris (UTC+1/+2)
+Format primaire :     XML.gz (compressé)
+Taille fichier :      ~15-20 MB (compressé)
+Taille décompressée : ~80-100 MB
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 VOUS ÊTES PRÊT!
+═══════════════════════════════════════════════════════════════════════════════
+
+Vous pouvez maintenant :
+  ✓ Regarder 60+ chaînes françaises
+  ✓ Consulter guide TV 5 jours
+  ✓ Voir logos HD chaînes
+  ✓ Accéder descriptions programmes
+  ✓ Enregistrer favoris
+  ✓ Programmer enregistrements
+
+BON VISIONNAGE ! 📺
+
+═══════════════════════════════════════════════════════════════════════════════
+Dernière mise à jour : 05 Septembre 2026
+Prochaine mise à jour EPG : Quotidienne 06:00
+═══════════════════════════════════════════════════════════════════════════════
