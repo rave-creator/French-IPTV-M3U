@@ -1,0 +1,208 @@
+EPG FR - GUIDE COMPLET D'INSTALLATION 2025
+===========================================
+
+SOURCE EPG OFFICIELLE POUR TOUS VOS FLUX
+=========================================
+
+🎯 MEILLEURE SOURCE EPG FRANCE 2025 :
+URL PRINCIPALE : https://xmltvfr.fr/xmltv/xmltv.xml.gz
+FORMAT : XML TV COMPRESSÉ (Gzip) - Mise à jour QUOTIDIENNE
+COUVERTURE : 785+ chaînes TNT, Cable, Satellite, Stream
+PROGRAMME : 5 jours en avance
+FUSEAU HORAIRE : Europe/Paris (UTC+1 ou +2 selon saison)
+
+===========================================
+SOURCES EPG ALTERNATIVES (Backup)
+===========================================
+
+1. OPEN-EPG (Fiable & Simple)
+   URL : https://open-epg.com/fr.xml
+   Format : XML Standard
+   Mise à jour : Quotidienne
+   Programme : 2 jours
+
+2. EPGDATA (Premium gratuit)
+   URL : https://www.epgdata.com/epgdata/xmltv.php
+   Format : XML
+   Couverture : France complète
+   Programme : 7 jours
+
+3. XMLTV-FR GITHUB (Self-Hosted)
+   Repo : https://github.com/racacax/XML-TV-Fr
+   Format : XML
+   Avantage : Personalisable
+
+===========================================
+INSTALLATION DÉTAILLÉE PAR LECTEUR
+===========================================
+
+█ PERFECT PLAYER (Recommandé ⭐)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Ouvrir Perfect Player
+2. Menu ⊙ → Paramètres → EPG Source
+3. Cliquer "ADD" (Ajouter)
+4. Coller : https://xmltvfr.fr/xmltv/xmltv.xml.gz
+5. Nom : "France EPG"
+6. Fuseau horaire : Europe/Paris
+7. Sauvegarder et attendre le chargement (1-2 min)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+█ TIVIMATE (Simple & Efficace)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Menu → Paramètres
+2. Aller à "EPG Source"
+3. Cliquer "Ajouter une source"
+4. Saisir : https://xmltvfr.fr/xmltv/xmltv.xml.gz
+5. Nommer : "TVG France"
+6. Zone horaire : UTC+1 (Auto)
+7. Synchronisation : Chaque jour 06:00
+8. OK
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+█ KODI (Home Cinema)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Paramètres → Enregistreur TV
+2. Paramètres TV → EPG XMLTV
+3. URL du guide EPG :
+   https://xmltvfr.fr/xmltv/xmltv.xml.gz
+4. Mise à jour automatique : 6 heures
+5. Appliquer et relancer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+█ VLC (Lecture Basique)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚠️ VLC ne supporte PAS nativement l'EPG
+Préférez : Perfect Player, TiviMate ou Kodi
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+█ XSTREAMER / IPTV EXTREME
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Ajouter Playlist M3U
+2. Ajouter EPG (source ci-dessus)
+3. Mapper TVG-ID entre M3U et EPG
+4. Actualiser EPG
+
+===========================================
+MAPPAGE TVG-ID (Important!)
+===========================================
+
+Pour que l'EPG fonctionne, les tvg-id doivent correspondre :
+
+DANS VOTRE M3U :
+#EXTINF:-1 tvg-id="tf1.fr" tvg-name="TF1"...
+
+DANS LE FICHIER EPG :
+<channel id="tf1.fr">
+
+✓ Ils DOIVENT être identiques!
+
+TVG-ID COURANTS FRANCE :
+━━━━━━━━━━━━━━━━━━━━━━━━
+tf1.fr           → TF1
+france2.fr       → France 2
+france3.fr       → France 3
+france4.fr       → France 4
+france5.fr       → France 5
+m6.fr            → M6
+arte.fr          → Arte
+tmc.fr           → TMC
+w9.fr            → W9
+tfx.fr           → TFX
+lci.fr           → LCI
+bfmtv.fr         → BFM TV
+bfmbusiness.fr   → BFM Business
+cnews.fr         → CNews
+france24.fr      → France 24
+euronews.fr      → Euronews
+tv5monde.fr      → TV5Monde
+equidia.fr       → Equidia
+lequipe.fr       → L'Équipe
+kto.fr           → KTO
+
+===========================================
+PROBLÈMES & SOLUTIONS
+===========================================
+
+❌ "EPG ne se charge pas"
+→ Vérifier connexion Internet
+→ Essayer une source alternative
+→ Redémarrer l'application
+
+❌ "Pas de programme affiché"
+→ Vérifier correspondance tvg-id
+→ Attendre mise à jour EPG (1-2 heures)
+→ Forcer actualisation manuelle
+
+❌ "Erreur XML"
+→ Télécharger version non-compressée :
+  https://xmltvfr.fr/xmltv/xmltv.xml
+  (Plus lourd, mais compatible)
+
+❌ "Fuseau horaire incorrect"
+→ Réglages : Europe/Paris (UTC+1/+2)
+→ Redémarrer app après changement
+
+===========================================
+ASTUCES AVANCÉES
+===========================================
+
+🔧 COMPRESSION & PERFORMANCE
+- Format .gz = 80% plus léger
+- Chargement = 50% plus rapide
+- Compatibilité : 99% des apps
+
+🔧 MISE À JOUR AUTOMATIQUE
+Perfect Player : Menu → Paramètres → EPG
+Scheduler : 06:00 - 22:00 (Toutes les 6h)
+
+🔧 SAUVEGARDE LOCAL
+Certains apps permettent cache EPG local
+Gain : Chargement instantané
+
+🔧 DUAL EPG (Redondance)
+Ajouter 2 sources EPG simultanément
+Si 1 échoue, l'autre prend le relais
+
+===========================================
+VÉRIFICATION FONCTIONNEMENT
+===========================================
+
+✓ Guides affichés dans l'app
+✓ Horaires corrects (UTC+1)
+✓ Descriptions présentes
+✓ Logos chaînes visibles
+✓ Mise à jour automatique active
+
+Si tout OK → Configuration réussie! 🎉
+
+===========================================
+SUPPORT & RESSOURCES
+===========================================
+
+Site officiel EPG France : https://xmltvfr.fr/
+Documentation : https://xmltvfr.fr/channels.php
+GitHub XMLTV-FR : https://github.com/racacax/XML-TV-Fr
+Forum IPTV : r/IPTV (Reddit)
+
+===========================================
+LICENCE & CONDITIONS
+===========================================
+
+✓ Sources 100% légales
+✓ Flux publics & gratuits
+✓ Chaînes de la TNT & Free-To-Air
+✓ Mise à jour garantie quotidienne
+✓ Usage privé uniquement
+
+⚠️ Respect des conditions d'utilisation
+⚠️ Pas de revente ou redistribution
+⚠️ Pas de modification sans attribution
+
+===========================================
+DERNIÈRE MISE À JOUR : 05-09-2026
+VOTRE EPG FRANCE EST MAINTENANT COMPLET ! 🚀
+===========================================
