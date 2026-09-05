@@ -1,0 +1,339 @@
+#EXTM3U url-tvg="https://epg.provider.com/xmltv.php" tvg-shift=0 deinterlace=1
+
+#--- CHAÎNES NATIONALES PRINCIPALES ---
+
+#EXTINF:-1 tvg-id="TF1.fr" tvg-name="TF1" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/3/37/TF1_logo_2013.svg/1200px-TF1_logo_2013.svg.png" group-title="Chaînes Nationales",TF1 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+http://151.80.18.177:86/TF1_HD/index.m3u8
+
+#EXTINF:-1 tvg-id="France2.fr" tvg-name="France 2" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/d/d6/France_2_logo_2013.svg/1200px-France_2_logo_2013.svg.png" group-title="Chaînes Nationales",France 2 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+http://145.239.5.177/301/index.m3u8
+
+#EXTINF:-1 tvg-id="France3.fr" tvg-name="France 3" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/6/6e/France_3_logo_2013.svg/1200px-France_3_logo_2013.svg.png" group-title="Chaînes Nationales",France 3 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+http://145.239.5.177/302/index.m3u8
+
+#EXTINF:-1 tvg-id="France4.fr" tvg-name="France 4" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/e/e8/France_4_logo_2013.svg/1200px-France_4_logo_2013.svg.png" group-title="Chaînes Nationales",France 4 HD
+https://sv1.data-stream.top/8c0a287e56a6e1843143904778be3775b4d3edd4fba4ffcc3f72638c7a71d4d4/hls/francetv4.m3u8
+
+#EXTINF:-1 tvg-id="France5.fr" tvg-name="France 5" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/b/b4/France_5_logo_2013.svg/1200px-France_5_logo_2013.svg.png" group-title="Chaînes Nationales",France 5 HD
+http://145.239.5.177/305/index.m3u8
+
+#EXTINF:-1 tvg-id="M6.fr" tvg-name="M6" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/7/76/M6_2013.svg/1200px-M6_2013.svg.png" group-title="Chaînes Nationales",M6 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+http://99.27.51.147:8080/M6/index.m3u8
+
+#EXTINF:-1 tvg-id="arte.fr" tvg-name="Arte" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/ARTE_logo.svg/1200px-ARTE_logo.svg.png" group-title="Chaînes Nationales",Arte HD
+http://145.239.5.177/300/index.m3u8
+
+#--- TNT CLASSIQUE ---
+
+#EXTINF:-1 tvg-id="TMC.fr" tvg-name="TMC" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/8/8b/TMC_logo_2013.svg/1200px-TMC_logo_2013.svg.png" group-title="TNT",TMC HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+http://151.80.18.177:86/TMC/index.m3u8
+
+#EXTINF:-1 tvg-id="W9.fr" tvg-name="W9" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/f3/W9_logo_2013.svg/1200px-W9_logo_2013.svg.png" group-title="TNT",W9 HD
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8
+
+#EXTINF:-1 tvg-id="TFX.fr" tvg-name="TFX" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/3/38/TFX_logo_2013.svg/1200px-TFX_logo_2013.svg.png" group-title="TNT",TFX HD
+http://145.239.5.177/315/index.m3u8
+
+#EXTINF:-1 tvg-id="LCI.fr" tvg-name="LCI" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/1/1e/LCI_logo_2013.svg/1200px-LCI_logo_2013.svg.png" group-title="TNT",LCI HD
+http://145.239.5.177/368/index.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport1.fr" tvg-name="Eurosport 1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Eurosport.svg/1200px-Eurosport.svg.png" group-title="TNT",Eurosport 1 HD
+http://145.239.5.177/310/index.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport2.fr" tvg-name="Eurosport 2" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Eurosport.svg/1200px-Eurosport.svg.png" group-title="TNT",Eurosport 2 HD
+http://145.239.5.177/311/index.m3u8
+
+#EXTINF:-1 tvg-id="6ter.fr" tvg-name="6ter" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/e/e0/6ter_logo.svg/1200px-6ter_logo.svg.png" group-title="TNT",6ter HD
+http://145.239.5.177/314/index.m3u8
+
+#EXTINF:-1 tvg-id="SerieClub.fr" tvg-name="Série Club" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/9/9a/Serie_Club_logo.svg/1200px-Serie_Club_logo.svg.png" group-title="TNT",Série Club HD
+http://145.239.5.177/355/index.m3u8
+
+#EXTINF:-1 tvg-id="Teva.fr" tvg-name="Teva" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/40/Teva_logo_2013.svg/1200px-Teva_logo_2013.svg.png" group-title="TNT",Teva HD
+http://145.239.5.177/356/index.m3u8
+
+#--- CANAL+ ET OFFRE CANALSAT ---
+
+#EXTINF:-1 tvg-id="CanalPlusCinemas.fr" tvg-name="Canal+ Cinémas" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/CanalPlus.svg/1200px-CanalPlus.svg.png" group-title="Canal+",Canal+ Cinémas HD
+http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8
+
+#EXTINF:-1 tvg-id="CinePlusEmotion.fr" tvg-name="Ciné+ Emotion" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/e/e4/Cineplus_emotion.svg/1200px-Cineplus_emotion.svg.png" group-title="Canal+",Ciné+ Emotion HD
+http://145.239.5.177/337/index.m3u8
+
+#EXTINF:-1 tvg-id="CinePlusFrisson.fr" tvg-name="Ciné+ Frisson" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/8/8f/Cineplus_frisson.svg/1200px-Cineplus_frisson.svg.png" group-title="Canal+",Ciné+ Frisson HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+http://99.27.51.147:8080/CineFrisson/index.m3u8
+
+#EXTINF:-1 tvg-id="CinePlusClassic.fr" tvg-name="Ciné+ Classic" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/a/ae/Cineplus_classic.svg/1200px-Cineplus_classic.svg.png" group-title="Canal+",Ciné+ Classic HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+http://99.27.51.147/CineClassic/index.m3u8
+
+#EXTINF:-1 tvg-id="ADNTVPlus.fr" tvg-name="ADN TV+" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/ADN_TV_logo.svg/1200px-ADN_TV_logo.svg.png" group-title="Canal+",ADN TV+ HD
+https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
+
+#--- INFOS ET ACTUALITÉS ---
+
+#EXTINF:-1 tvg-id="BFMTV.fr" tvg-name="BFM TV" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/4e/BFM_TV_logo_2018.svg/1200px-BFM_TV_logo_2018.svg.png" group-title="Infos",BFM TV
+https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+
+#EXTINF:-1 tvg-id="BFMBusiness.fr" tvg-name="BFM Business" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a2/BFM_Business_logo_2018.svg/1200px-BFM_Business_logo_2018.svg.png" group-title="Infos",BFM Business
+https://live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/master.m3u8
+
+#EXTINF:-1 tvg-id="BFMLyon.fr" tvg-name="BFM Lyon" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/7/7c/BFM_Lyon_logo.svg/1200px-BFM_Lyon_logo.svg.png" group-title="Infos Régionales",BFM Lyon
+https://live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+
+#EXTINF:-1 tvg-id="CNews.fr" tvg-name="CNews" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/9/9e/CNews_logo_2018.svg/1200px-CNews_logo_2018.svg.png" group-title="Infos",CNews HD
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8
+
+#EXTINF:-1 tvg-id="CNEWSPRIME.fr" tvg-name="CNews Prime" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/9/9e/CNews_logo_2018.svg/1200px-CNews_logo_2018.svg.png" group-title="Infos",CNews Prime HD
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-prime-dm.m3u8
+
+#EXTINF:-1 tvg-id="BFM2.fr" tvg-name="BFM2" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/b/b0/BFM2_logo.svg/1200px-BFM2_logo.svg.png" group-title="Infos",BFM2 HD
+https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
+
+#EXTINF:-1 tvg-id="France24.fr" tvg-name="France 24 Français" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/France_24_logo.svg/1200px-France_24_logo.svg.png" group-title="Infos",France 24 Français HD
+https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_2300.m3u8
+
+#EXTINF:-1 tvg-id="France24English.fr" tvg-name="France 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/France_24_logo.svg/1200px-France_24_logo.svg.png" group-title="Infos",France 24 English HD
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8
+
+#EXTINF:-1 tvg-id="EuronewsFrench.fr" tvg-name="Euronews Français" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Euronews_logo.svg/1200px-Euronews_logo.svg.png" group-title="Infos",Euronews Français HD
+https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8
+
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-name="Euronews English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Euronews_logo.svg/1200px-Euronews_logo.svg.png" group-title="Infos",Euronews English HD
+https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8
+
+#--- CINÉMA ET SÉRIES ---
+
+#EXTINF:-1 tvg-id="AB1.fr" tvg-name="AB1" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/e/ea/AB1_logo.svg/1200px-AB1_logo.svg.png" group-title="Cinéma",AB1 HD
+http://145.239.5.177/332/index.m3u8
+
+#EXTINF:-1 tvg-id="CStar.fr" tvg-name="C Star" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/d/de/C_Star_logo.svg/1200px-C_Star_logo.svg.png" group-title="Cinéma",C Star HD
+http://145.239.5.177/361/index.m3u8
+
+#EXTINF:-1 tvg-id="RMCStory.fr" tvg-name="RMC Story" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/51/RMC_Story_logo.svg/1200px-RMC_Story_logo.svg.png" group-title="Cinéma",RMC Story HD
+https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqkqiax1078up/RMC_Story_FR.m3u8
+
+#EXTINF:-1 tvg-id="RMCLife.fr" tvg-name="RMC Life" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/RMC_Life_logo.svg/1200px-RMC_Life_logo.svg.png" group-title="Cinéma",RMC Life HD
+http://145.239.5.177/333/index.m3u8
+
+#EXTINF:-1 tvg-id="T18.fr" tvg-name="T18" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/7/7e/T18_logo.svg/1200px-T18_logo.svg.png" group-title="Cinéma",T18 HD
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
+
+#EXTINF:-1 tvg-id="SonyOneBlacklist.fr" tvg-name="Sony One Blacklist" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Sony_One_logo.svg/1200px-Sony_One_logo.svg.png" group-title="Cinéma",Sony One Blacklist HD
+https://d1x87j1jmcypab.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SonyOneFavoris.fr" tvg-name="Sony One Favoris" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Sony_One_logo.svg/1200px-Sony_One_logo.svg.png" group-title="Cinéma",Sony One Favoris HD
+https://d21fkiqbljd83t.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SonyOneHitsAction.fr" tvg-name="Sony One Hits Action" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Sony_One_logo.svg/1200px-Sony_One_logo.svg.png" group-title="Cinéma",Sony One Hits Action HD
+https://d1tvu4639eiqii.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SonyOneHitsComedie.fr" tvg-name="Sony One Hits Comédie" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Sony_One_logo.svg/1200px-Sony_One_logo.svg.png" group-title="Cinéma",Sony One Hits Comédie HD
+https://d3nvxupr08boay.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SciFi.fr" tvg-name="Syfy" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Syfy_logo.svg/1200px-Syfy_logo.svg.png" group-title="Cinéma",Syfy HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+http://99.27.51.147:8080/SYFY/index.m3u8
+
+#--- MUSIQUE ET DIVERTISSEMENT ---
+
+#EXTINF:-1 tvg-id="M6Music.fr" tvg-name="M6 Music" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/9/9d/M6_Music_logo.svg/1200px-M6_Music_logo.svg.png" group-title="Musique",M6 Music HD
+http://145.239.5.177/320/index.m3u8
+
+#EXTINF:-1 tvg-id="Mezzo.fr" tvg-name="Mezzo Live" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Mezzo_logo.svg/1200px-Mezzo_logo.svg.png" group-title="Musique",Mezzo Live HD
+http://145.239.5.177/276/index.m3u8
+
+#EXTINF:-1 tvg-id="TraceUrban.fr" tvg-name="Trace Urban" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Trace_Urban_logo.svg/1200px-Trace_Urban_logo.svg.png" group-title="Musique",Trace Urban HD
+http://145.239.5.177/210/index.m3u8
+
+#EXTINF:-1 tvg-id="TraceSportStars.fr" tvg-name="Trace Sport Stars" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Trace_Sport_Stars_logo.svg/1200px-Trace_Sport_Stars_logo.svg.png" group-title="Musique",Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
+
+#EXTINF:-1 tvg-id="MCMTop.fr" tvg-name="MCM Top" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/46/MCM_logo.svg/1200px-MCM_logo.svg.png" group-title="Musique",MCM Top HD
+http://89.33.29.118/MCM/index.m3u8
+
+#EXTINF:-1 tvg-id="MTV.fr" tvg-name="MTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/MTV_Logo.svg/1200px-MTV_Logo.svg.png" group-title="Musique",MTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+http://99.27.51.147:8080/MTV/index.m3u8
+
+#EXTINF:-1 tvg-id="NRJHits.fr" tvg-name="NRJ Hits" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/NRJ_Hits_logo.svg/1200px-NRJ_Hits_logo.svg.png" group-title="Musique",NRJ Hits
+https://test.946985.filegear-sg.me/proxy/a23981548880f405
+
+#--- JEUNESSE ---
+
+#EXTINF:-1 tvg-id="DisneyJr.fr" tvg-name="Disney Junior" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Disney_Junior_logo.svg/1200px-Disney_Junior_logo.svg.png" group-title="Jeunesse",Disney Junior HD
+http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
+
+#EXTINF:-1 tvg-id="NickelodeonJunior.fr" tvg-name="Nickelodeon Junior" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Nickelodeon_Junior_logo.svg/1200px-Nickelodeon_Junior_logo.svg.png" group-title="Jeunesse",Nickelodeon Junior HD
+http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
+
+#EXTINF:-1 tvg-id="Gulli.fr" tvg-name="Gulli" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Gulli_logo.svg/1200px-Gulli_logo.svg.png" group-title="Jeunesse",Gulli
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+http://99.27.51.147:8080/Gulli/index.m3u8
+
+#EXTINF:-1 tvg-id="Caillou.fr" tvg-name="Caillou" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Caillou_logo.svg/1200px-Caillou_logo.svg.png" group-title="Jeunesse",Caillou
+https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
+
+#--- SPORTS ---
+
+#EXTINF:-1 tvg-id="Equidia.fr" tvg-name="Equidia" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/f7/Equidia_logo.svg/1200px-Equidia_logo.svg.png" group-title="Sports",Equidia HD
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
+
+#EXTINF:-1 tvg-id="EquidiaRacingMag.fr" tvg-name="Equidia Racing Mag" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/f/f7/Equidia_logo.svg/1200px-Equidia_logo.svg.png" group-title="Sports",Equidia Racing Mag HD
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/racingmag.m3u8
+
+#EXTINF:-1 tvg-id="FootPlus.fr" tvg-name="Foot+" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Foot_plus_logo.svg/1200px-Foot_plus_logo.svg.png" group-title="Sports",Foot+ HD
+http://145.239.5.177/556a/index.m3u8
+
+#EXTINF:-1 tvg-id="RMCSport1.fr" tvg-name="RMC Sport 1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/40/RMC_Sport_logo.svg/1200px-RMC_Sport_logo.svg.png" group-title="Sports",RMC Sport 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21
+https://7nyaler.streamhostingcdn.top/stream/59/index.m3u8
+
+#EXTINF:-1 tvg-id="CanalPlusSport360.fr" tvg-name="Canal+ Sport 360" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/CanalPlus.svg/1200px-CanalPlus.svg.png" group-title="Sports",Canal+ Sport 360
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+
+#--- CHAÎNES RÉGIONALES NORD PAS-DE-CALAIS ---
+
+#EXTINF:-1 tvg-id="France3Nord.fr" tvg-name="France 3 Nord Pas-de-Calais" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/6/6e/France_3_logo_2013.svg" group-title="Régionales Nord",France 3 Nord Pas-de-Calais HD
+http://145.239.5.177/302/index.m3u8
+
+#EXTINF:-1 tvg-id="BFMLille.fr" tvg-name="BFM Lille" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/4e/BFM_TV_logo_2018.svg/1200px-BFM_TV_logo_2018.svg.png" group-title="Régionales Nord",BFM Lille
+https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+
+#EXTINF:-1 tvg-id="RMCNord.fr" tvg-name="RMC Nord" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/40/RMC_Sport_logo.svg/1200px-RMC_Sport_logo.svg.png" group-title="Régionales Nord",RMC Nord
+https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+
+#EXTINF:-1 tvg-id="Zoom44.fr" tvg-name="Zoom 44" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Zoom_44_logo.svg/1200px-Zoom_44_logo.svg.png" group-title="Régionales Nord",Zoom 44
+https://event.vedge.infomaniak.com/livecast/ik:zoom44/manifest.m3u8
+
+#--- CHAÎNES RÉGIONALES BRETAGNE ---
+
+#EXTINF:-1 tvg-id="France3Bretagne.fr" tvg-name="France 3 Bretagne" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/6/6e/France_3_logo_2013.svg" group-title="Régionales Bretagne",France 3 Bretagne HD
+http://145.239.5.177/302/index.m3u8
+
+#EXTINF:-1 tvg-id="TVBreizh.fr" tvg-name="TV Breizh" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/8/8c/TV_Breizh_logo.svg/1200px-TV_Breizh_logo.svg.png" group-title="Régionales Bretagne",TV Breizh HD
+http://145.239.5.177/318/index.m3u8
+
+#EXTINF:-1 tvg-id="TVR.fr" tvg-name="TVR Bretagne" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5a/TVR_logo.svg/1200px-TVR_logo.svg.png" group-title="Régionales Bretagne",TVR Bretagne HD
+https://streamtv.cdn.dvmr.fr/TVR/ngrp:tvr.stream_all/master.m3u8
+
+#EXTINF:-1 tvg-id="BFMBrest.fr" tvg-name="BFM Brest" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/4e/BFM_TV_logo_2018.svg/1200px-BFM_TV_logo_2018.svg.png" group-title="Régionales Bretagne",BFM Brest
+https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+
+#EXTINF:-1 tvg-id="TeleGohelle.fr" tvg-name="TéléGohelle" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/c/ce/TeleGohelle_logo.svg/1200px-TeleGohelle_logo.svg.png" group-title="Régionales Bretagne",TéléGohelle
+https://videas.agglo-lenslievin.fr/index.m3u8
+
+#--- CHAÎNES INTERNATIONALES PREMIUM ---
+
+#EXTINF:-1 tvg-id="TiVi5Monde.fr" tvg-name="TiVi5 Monde" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/TV5Monde_logo.svg/1200px-TV5Monde_logo.svg.png" group-title="Internationales",TiVi5 Monde
+https://ott.tv5monde.com/Content/HLS/Live/channel(tivi5)/variant.m3u8
+
+#EXTINF:-1 tvg-id="TV5MondeEurope.fr" tvg-name="TV5Monde Europe" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/TV5Monde_logo.svg/1200px-TV5Monde_logo.svg.png" group-title="Internationales",TV5Monde Europe HD
+http://45.14.84.37/tv5monde/index.m3u8
+
+#EXTINF:-1 tvg-id="TV5MondeAsia.fr" tvg-name="TV5Monde Asie" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/TV5Monde_logo.svg/1200px-TV5Monde_logo.svg.png" group-title="Internationales",TV5Monde Asie HD
+http://54.37.19.157/TV5MONDE/index.m3u8
+
+#EXTINF:-1 tvg-id="TV5MondeAfrica.fr" tvg-name="TV5Monde Afrique" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/TV5Monde_logo.svg/1200px-TV5Monde_logo.svg.png" group-title="Internationales",TV5Monde Afrique HD
+http://5.9.121.178/tv5monde/index.m3u8
+
+#EXTINF:-1 tvg-id="TV5MONDEChefs.fr" tvg-name="TV5MONDE Chefs" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/TV5Monde_logo.svg/1200px-TV5Monde_logo.svg.png" group-title="Internationales",TV5MONDE Chefs HD
+https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
+
+#EXTINF:-1 tvg-id="TV5MondeStyle.fr" tvg-name="TV5Monde Style" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/TV5Monde_logo.svg/1200px-TV5Monde_logo.svg.png" group-title="Internationales",TV5Monde Style
+http://103.190.232.129/stream/tvb/style/master.m3u8
+
+#EXTINF:-1 tvg-id="Africa24.fr" tvg-name="Africa 24" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Africa24_logo.svg/1200px-Africa24_logo.svg.png" group-title="Internationales",Africa 24 HD
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+
+#EXTINF:-1 tvg-id="Africa24English.fr" tvg-name="Africa 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Africa24_logo.svg/1200px-Africa24_logo.svg.png" group-title="Internationales",Africa 24 English HD
+https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
+
+#EXTINF:-1 tvg-id="Africa24Sport.fr" tvg-name="Africa 24 Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Africa24_logo.svg/1200px-Africa24_logo.svg.png" group-title="Internationales",Africa 24 Sport HD
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
+#EXTINF:-1 tvg-id="AfricanewsFrench.fr" tvg-name="Africanews Français" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Africanews_logo.svg/1200px-Africanews_logo.svg.png" group-title="Internationales",Africanews Français HD
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
+
+#EXTINF:-1 tvg-id="AfricanewsEnglish.fr" tvg-name="Africanews English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Africanews_logo.svg/1200px-Africanews_logo.svg.png" group-title="Internationales",Africanews English HD
+https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8
+
+#EXTINF:-1 tvg-id="Francophonie24.fr" tvg-name="Francophonie24" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Francophonie24_logo.svg/1200px-Francophonie24_logo.svg.png" group-title="Internationales",Francophonie24 HD
+https://5421175365ea3.streamlock.net/live/smil:switch.smil/playlist.m3u8
+
+#--- CHAÎNES SPÉCIALISÉES ---
+
+#EXTINF:-1 tvg-id="KTO.fr" tvg-name="KTO" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/KTO_logo.svg/1200px-KTO_logo.svg.png" group-title="Spécialisées",KTO
+http://145.239.5.177/354/index.m3u8
+
+#EXTINF:-1 tvg-id="ILTV.fr" tvg-name="ILTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/ILTV_logo.svg/1200px-ILTV_logo.svg.png" group-title="Spécialisées",ILTV HD
+https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MyZenTV.fr" tvg-name="MyZen TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/MyZen_TV_logo.svg/1200px-MyZen_TV_logo.svg.png" group-title="Spécialisées",MyZen TV HD
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Gong.fr" tvg-name="Gong" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Gong_logo.svg/1200px-Gong_logo.svg.png" group-title="Spécialisées",Gong HD
+https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
+
+#EXTINF:-1 tvg-id="GenerationsTV.fr" tvg-name="Générations TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Generations_TV_logo.svg/1200px-Generations_TV_logo.svg.png" group-title="Spécialisées",Générations TV
+https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="PuissanceTV.fr" tvg-name="Puissance TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Puissance_TV_logo.svg/1200px-Puissance_TV_logo.svg.png" group-title="Spécialisées",Puissance TV
+https://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8
+
+#EXTINF:-1 tvg-id="EvandisGospelTV.fr" tvg-name="Evandis Gospel TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Evandis_Gospel_TV_logo.svg/1200px-Evandis_Gospel_TV_logo.svg.png" group-title="Spécialisées",Evandis Gospel TV HD
+https://evandis.streamakaci.tv/str_evandis_evandis/str_evandis_multi/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DBMTV.fr" tvg-name="DBM TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/DBM_TV_logo.svg/1200px-DBM_TV_logo.svg.png" group-title="Spécialisées",DBM TV HD
+https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="zenith.fr" tvg-name="Zenith" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Zenith_logo.svg/1200px-Zenith_logo.svg.png" group-title="Spécialisées",Zenith HD
+https://live.azenagroup.com/zenith/index.m3u8
+
+#EXTINF:-1 tvg-id="MonteCarloDigitalTelevision.fr" tvg-name="Monte Carlo Télévision" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Monte_Carlo_Television_logo.svg/1200px-Monte_Carlo_Television_logo.svg.png" group-title="Spécialisées",Monte Carlo Télévision HD
+https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8
+
+#EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr" tvg-name="FashionTV Paris L'Original" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Fashion_TV_logo.svg/1200px-Fashion_TV_logo.svg.png" group-title="Spécialisées",FashionTV Paris L'Original HD
+https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+
+#EXTINF:-1 tvg-id="FashionTVSecrets.fr" tvg-name="FashionTV Secrets" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Fashion_TV_logo.svg/1200px-Fashion_TV_logo.svg.png" group-title="Spécialisées",FashionTV Secrets HD
+https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&cb=[CACHEBUSTER]
+
+#EXTINF:-1 tvg-id="20MinutesTV.fr" tvg-name="20 Minutes TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/20_Minutes_TV_logo.svg/1200px-20_Minutes_TV_logo.svg.png" group-title="Spécialisées",20 Minutes TV HD
+https://live-20minutestv.digiteka.com/1961167769/index.m3u8
+
+#EXTINF:-1 tvg-id="AlpedHuezTV.fr" tvg-name="Alpe d'Huez TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Alpe_d_Huez_TV_logo.svg/1200px-Alpe_d_Huez_TV_logo.svg.png" group-title="Spécialisées",Alpe d'Huez TV HD
+https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="LittoralFMTV.fr" tvg-name="Littoral FM TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Littoral_FM_TV_logo.svg/1200px-Littoral_FM_TV_logo.svg.png" group-title="Spécialisées",Littoral FM TV HD
+https://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NollywoodTV.fr" tvg-name="Nollywood TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Nollywood_TV_logo.svg/1200px-Nollywood_TV_logo.svg.png" group-title="Spécialisées",Nollywood TV HD
+http://145.239.5.177/148/index.m3u8
+
+#EXTINF:-1 tvg-id="MDL.fr" tvg-name="Monde du Loisir" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/MDL_logo.svg/1200px-MDL_logo.svg.png" group-title="Spécialisées",MDL TV HD
+http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="P2MTV.fr" tvg-name="P2M TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/P2M_TV_logo.svg/1200px-P2M_TV_logo.svg.png" group-title="Spécialisées",P2M TV HD
+https://vdo2.pro-fhi.net:3207/stream/play.m3u8
+
+#EXTINF:-1 tvg-id="TV3V.fr" tvg-name="TV3V" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/TV3V_logo.svg/1200px-TV3V_logo.svg.png" group-title="Spécialisées",TV3V HD
+https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8
+
+#EXTINF:-1 tvg-id="ViaMatele.fr" tvg-name="ViàMatélé" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/ViaMatele_logo.svg/1200px-ViaMatele_logo.svg.png" group-title="Spécialisées",ViàMatélé HD
+https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8
+
+#EXTINF:-1 tvg-id="viaTelePaese.fr" tvg-name="viàTéléPaese" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/ViaTelePaese_logo.svg/1200px-ViaTelePaese_logo.svg.png" group-title="Spécialisées",viàTéléPaese HD
+https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8
+
+#EXTINF:-1 tvg-id="HANDICAPTV.fr" tvg-name="Handicap TV France" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Handicap_TV_logo.svg/1200px-Handicap_TV_logo.svg.png" group-title="Spécialisées",Handicap TV France
+https://srv.webtvmanager.fr:3697/stream/play.m3u8
+
+#--- FIN DU FICHIER M3U ---
